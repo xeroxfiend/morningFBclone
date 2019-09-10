@@ -1,0 +1,58 @@
+body {
+    background: #E9EBEE;
+    padding: 5px 15px 5px 15px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.container {
+    background: #FFFFFF;
+    padding: 10px;
+    width: 645px;
+    box-shadow: 1px 1px 1px rgb(192, 191, 191)
+}
+
+.shared::before {
+    content: 'Todd M. Rasband ';
+    color: #527EB8;
+    font-weight: bold;
+}
+
+.header {
+    display: flex;
+    width: 66%;
+    margin-bottom: 7px;
+}
+
+.crippling-container {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.crippling {
+    color: #527EB8;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.like-page {
+    height: 36px;
+    margin-top: 13px;
+}
+
+hr {
+    width: 97%;
+}
+
+.date {
+    margin-left: 29px;
+    margin-top: -15px;
+    color: grey
+}
+
+.dots {
+    height: 27px;
+    position: absolute;
+    margin-left: 594px
+}
